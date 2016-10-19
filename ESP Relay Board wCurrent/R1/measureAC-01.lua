@@ -52,7 +52,7 @@ function read_ac()
 
 end
 
-function relayb(pin, t_nr, delay)
+function relay_1(pin, t_nr, delay)
     gpio.mode(pin, gpio.OUTPUT)
     blink_status1 = 0
 
@@ -68,7 +68,7 @@ function relayb(pin, t_nr, delay)
     
 end
 
-function relayt(pin, t_nr, delay)
+function relay_2(pin, t_nr, delay)
     gpio.mode(pin, gpio.OUTPUT)
     blink_status2 = 0
 
@@ -84,27 +84,7 @@ function relayt(pin, t_nr, delay)
     
 end
 
-function relay3(pin, pin2, t_nr, delay)
-    gpio.mode(pin, gpio.OUTPUT)
-    gpio.mode(pin2, gpio.OUTPUT)
-    blink_status1 = 0
-
-    tmr.alarm(t_nr, delay, 1, function()
-        if blink_status1 == 0 then
-            blink_status1 = 1
-            gpio.write(pin, gpio.HIGH)
-            gpio.write(pin2, gpio.HIGH)
-        else
-            blink_status1 = 0
-            gpio.write(pin, gpio.LOW)
-            gpio.write(pin2, gpio.LOW)
-        end
-    end)
-    
-end
-
 
 read_ac()
 --relayb(6,3,10000)
 --relayt(7,4,10000)
---relay3(6,7,2,10000)
