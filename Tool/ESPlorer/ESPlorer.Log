@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2016-10-19T14:52:36</date>
-  <millis>1476859956585</millis>
+  <date>2016-11-08T12:52:56</date>
+  <millis>1478580776653</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:36</date>
-  <millis>1476859956591</millis>
+  <date>2016-11-08T12:52:56</date>
+  <millis>1478580776658</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:36</date>
-  <millis>1476859956595</millis>
+  <date>2016-11-08T12:52:56</date>
+  <millis>1478580776661</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets (LUA): loading...</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:36</date>
-  <millis>1476859956598</millis>
+  <date>2016-11-08T12:52:56</date>
+  <millis>1478580776666</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets (LUA) load: Success.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:37</date>
-  <millis>1476859957291</millis>
+  <date>2016-11-08T12:52:57</date>
+  <millis>1478580777086</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,19 +57,19 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:37</date>
-  <millis>1476859957306</millis>
+  <date>2016-11-08T12:52:57</date>
+  <millis>1478580777091</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>found last saved serial port COM5</message>
+  <message>found last saved serial port COM17</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:37</date>
-  <millis>1476859957309</millis>
+  <date>2016-11-08T12:52:57</date>
+  <millis>1478580777094</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,19 +79,19 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:39</date>
-  <millis>1476859959561</millis>
+  <date>2016-11-08T12:52:58</date>
+  <millis>1478580778033</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Serial port COM5 save as default.</message>
+  <message>Serial port COM17 save as default.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:39</date>
-  <millis>1476859959563</millis>
+  <date>2016-11-08T12:52:58</date>
+  <millis>1478580778034</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -101,30 +101,30 @@
   <message>Baud rate 9600 save as default.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:39</date>
-  <millis>1476859959564</millis>
+  <date>2016-11-08T12:52:58</date>
+  <millis>1478580778036</millis>
   <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to open port COM5, baud 9600, 8N1</message>
+  <message>Try to open port COM17, baud 9600, 8N1</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:39</date>
-  <millis>1476859959687</millis>
+  <date>2016-11-08T12:52:58</date>
+  <millis>1478580778146</millis>
   <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Open port COM5 - Success.</message>
+  <message>Open port COM17 - Success.</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:39</date>
-  <millis>1476859959735</millis>
+  <date>2016-11-08T12:52:58</date>
+  <millis>1478580778182</millis>
   <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -134,121 +134,131 @@
   <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:52:39</date>
-  <millis>1476859959810</millis>
+  <date>2016-11-08T12:52:58</date>
+  <millis>1478580778296</millis>
   <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>25</thread>
+  <thread>23</thread>
   <message>
 Communication with MCU established.</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:01</date>
-  <millis>1476859981893</millis>
+  <date>2016-11-08T12:53:05</date>
+  <millis>1478580785238</millis>
   <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to reconnect with baud 115200...</message>
+  <message>sending:=adc.read(0)&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:01</date>
-  <millis>1476859981895</millis>
+  <date>2016-11-08T12:53:22</date>
+  <millis>1478580802725</millis>
   <sequence>20</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:print(uart.setup(0, 115200, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:02</date>
-  <millis>1476859982122</millis>
+  <date>2016-11-08T12:53:22</date>
+  <millis>1478580802728</millis>
   <sequence>21</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Reconnect: Success.</message>
+  <message>Try to reconnect with saved baud 9600...</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:02</date>
-  <millis>1476859982213</millis>
+  <date>2016-11-08T12:53:22</date>
+  <millis>1478580802753</millis>
   <sequence>22</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:02</date>
-  <millis>1476859982219</millis>
+  <date>2016-11-08T12:53:22</date>
+  <millis>1478580802922</millis>
   <sequence>23</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>25</thread>
-  <message>
-Communication with MCU established.</message>
+  <thread>13</thread>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:15</date>
-  <millis>1476859995738</millis>
+  <date>2016-11-08T12:53:22</date>
+  <millis>1478580802924</millis>
   <sequence>24</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+  <message>Try to reconnect with saved baud 9600...</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:18</date>
-  <millis>1476859998237</millis>
+  <date>2016-11-08T12:53:22</date>
+  <millis>1478580802952</millis>
   <sequence>25</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to reconnect with baud 9600...</message>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:18</date>
-  <millis>1476859998239</millis>
+  <date>2016-11-08T12:53:23</date>
+  <millis>1478580803101</millis>
   <sequence>26</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:print(uart.setup(0, 9600, 8, 0, 1, 1 ))&lt;CR&gt;&lt;LF&gt;</message>
+  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:18</date>
-  <millis>1476859998466</millis>
+  <date>2016-11-08T12:53:23</date>
+  <millis>1478580803103</millis>
   <sequence>27</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Reconnect: Success.</message>
+  <message>Try to reconnect with saved baud 9600...</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:18</date>
-  <millis>1476859998524</millis>
+  <date>2016-11-08T12:53:23</date>
+  <millis>1478580803130</millis>
   <sequence>28</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:24</date>
+  <millis>1478580804770</millis>
+  <sequence>29</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -257,32 +267,461 @@ Communication with MCU established.</message>
   <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:53:18</date>
-  <millis>1476859998530</millis>
-  <sequence>29</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>25</thread>
-  <message>
-Communication with MCU established.</message>
-</record>
-<record>
-  <date>2016-10-19T14:53:19</date>
-  <millis>1476859999246</millis>
+  <date>2016-11-08T12:53:24</date>
+  <millis>1478580804990</millis>
   <sequence>30</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2016-10-19T14:54:16</date>
-  <millis>1476860056030</millis>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805059</millis>
   <sequence>31</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805153</millis>
+  <sequence>32</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805256</millis>
+  <sequence>33</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805361</millis>
+  <sequence>34</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805434</millis>
+  <sequence>35</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805557</millis>
+  <sequence>36</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805662</millis>
+  <sequence>37</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805734</millis>
+  <sequence>38</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805858</millis>
+  <sequence>39</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:25</date>
+  <millis>1478580805963</millis>
+  <sequence>40</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806036</millis>
+  <sequence>41</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806159</millis>
+  <sequence>42</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806264</millis>
+  <sequence>43</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806337</millis>
+  <sequence>44</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806460</millis>
+  <sequence>45</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806564</millis>
+  <sequence>46</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806639</millis>
+  <sequence>47</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806763</millis>
+  <sequence>48</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806865</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:26</date>
+  <millis>1478580806939</millis>
+  <sequence>50</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807064</millis>
+  <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807166</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807240</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807364</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807467</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807540</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807666</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807768</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807841</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:27</date>
+  <millis>1478580807966</millis>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:28</date>
+  <millis>1478580808069</millis>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:28</date>
+  <millis>1478580808141</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:28</date>
+  <millis>1478580808267</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:28</date>
+  <millis>1478580808369</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:28</date>
+  <millis>1478580808443</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:28</date>
+  <millis>1478580808542</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>23</thread>
+  <message>
+Communication with MCU established.</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:30</date>
+  <millis>1478580810656</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=adc.read(0)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:31</date>
+  <millis>1478580811088</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=adc.read(0)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:31</date>
+  <millis>1478580811506</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=adc.read(0)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T12:53:32</date>
+  <millis>1478580812016</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=adc.read(0)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2016-11-08T13:24:50</date>
+  <millis>1478582690201</millis>
+  <sequence>71</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -291,9 +730,9 @@ Communication with MCU established.</message>
   <message>FileTab cleared: Success.</message>
 </record>
 <record>
-  <date>2016-10-19T14:54:16</date>
-  <millis>1476860056033</millis>
-  <sequence>32</sequence>
+  <date>2016-11-08T13:24:50</date>
+  <millis>1478582690203</millis>
+  <sequence>72</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
