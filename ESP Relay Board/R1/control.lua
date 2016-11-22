@@ -38,7 +38,7 @@ function M.relay_onoff()
 
     end)
 
-    tmr.alarm(3,4000, 0, function() tmr.stop(5) end)
+    tmr.alarm(3,4000, 0, function() tmr.stop(2) end)
         
 end
 

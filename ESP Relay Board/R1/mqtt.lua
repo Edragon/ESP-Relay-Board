@@ -2,10 +2,9 @@ control = require "control"
 
 mconf = require "mqtt_config"
 
-print("Running file mqtt")
 tmr.delay(100000)
 
-control.status_LED(2000)
+control.status_LED(3000)
 
 gpio6 = 6
 gpio.mode(gpio6, gpio.OUTPUT)
@@ -31,12 +30,22 @@ m:on("offline", function(client) print ("device offline event") end)
 
 -- on / message event
 m:on("message", function(conn, topic, data)
-  print(topic.. " event registered" )
+  print(topic.. " event received" )
+  
+  if topic == "ID" then
+    if data == node.chipid().."ON" then
+        print("switch to ID control mode")
+        misc.con_idcontrol()
+        node.restart()
+    end
+  end
+    
   if topic == "Light1" then
     if data == "ON" then
         print("received message: ON @ light1")
         gpio.write(gpio6, gpio.HIGH)
     end
+    
     if data == "OFF" then
         print("received message: OFF @ light1")
         gpio.write(gpio6, gpio.LOW)
@@ -58,26 +67,33 @@ m:on("message", function(conn, topic, data)
      
 end)
 
--- send0/publish chip ID
-
+-- connect
 m:connect(mconf.HOST, mconf.PORT, 0, function(conn)
 
-    print("connected")
-    print("Your ID: " ..node.chipid())
-    -- subscribe both topic
+    print("connecting to MQTT ...")
+    --print("Your ID: " ..node.chipid())
 
-    m:subscribe({["Light1"]=0, ["Light2"]=0}, function(conn) 
-        print("subscribe Light 1 and 2 success")
-    end)
-            
-    m:publish("ID is: ", node.chipid(),0,0, function(conn) 
-        print("sent ID") 
+    -- subscribe to topics
+    m:subscribe( 
+        { ["Light1"]=0, ["Light2"]=0, ["ID"]=0 }, function(conn) 
+            print("subscribe on topics: Light1, 2 and ID")
     end)
     
+    -- publish chip ID
     tmr.alarm(2, 5000, tmr.ALARM_AUTO, function()
-        m:publish("ADCnow", adc.read(0),0,0, function(conn) 
-            print("sent ADC") 
+        m:publish("ID", node.chipid(), 0, 0, function(conn) 
+            print("publishing chip ID   " .. node.chipid() ) 
         end)
+    
     end)
+    
+    tmr.alarm(3, 21000, 0, function() tmr.stop(2) end)
+    
+    -- ADC
+    --tmr.alarm(2, 5000, tmr.ALARM_AUTO, function()
+    --    m:publish("ADCnow", adc.read(0),0,0, function(conn) 
+    --        print("sent ADC") 
+    --    end)
+    --end)
 
 end, function(client, reason) print("failed reason: "..reason) end)

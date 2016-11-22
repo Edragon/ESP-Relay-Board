@@ -1,23 +1,23 @@
 path_data:
-choosed:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\ESP Relay Board\R1\firmware\R3.1_normal_on_082502.bin;0x00000;
+empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R2_ID control added.bin;0x00000;
+choosed:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\Firmware\nodemcu_ADC_MQTT_HTTP_9600.bin;0x00000;
 empty:C:\Users\hechao\nodemcu-firmware\bin\nodemcu_float_master_20161019-0617.bin;0x00000;
-empty:C:\Users\hechao\nodemcu-firmware\bin\nodemcu_float_master_20161019-0617.bin;0x00000;
-empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\v1.3.0.2 AT Firmware.bin;0x00000;
-empty:;0x00000;
+empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\Firmware\AT\v1.3.0.2 AT Firmware.bin;0x00000;
+empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R2_ID control added.bin;0x00000;
 empty:;0x3fc000;
 empty:;0x00000;
-default_path:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\ESP Relay Board\R1\firmware;
+default_path:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board;
 COM1:
 com_port1:16
 baudrate1:4
 COM2:
-com_port2:18
+com_port2:5
 baudrate2:4
 COM3:
-com_port3:19
+com_port3:6
 baudrate3:4
 COM4:
-com_port4:20
+com_port4:7
 baudrate4:4
 COM5:
 com_port5:0
