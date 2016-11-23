@@ -1,24 +1,34 @@
 
 local M = {}
 
--- write_arry = {0xFA, 0xF5}
 
+    
 function M.IR_write()
-
-    tmr.alarm(0, 200, tmr.ALARM_SINGLE, function() 
-        uart.alt(1)
-        --uart.setup(0, 9600, 8, uart.PARITY_NONE, uart.STOPBITS_1, 1)
-    end)
-
-    tmr.alarm(1, 400, tmr.ALARM_SINGLE, function() 
-        uart.write(0, 0xFA, 0xF5) 
-    end)
-
-    tmr.alarm(2, 600, tmr.ALARM_SINGLE, function() 
-        uart.alt(0)
-    end)
-
+    IR_read = {0xFA, 0xF5}    
+    uart.alt(1)
+    for key, value in ipairs(IR_read) do uart.write(0, value) end
+    
+        uart.on("data", "\0", function(data)
+            uart.alt(0)                             
+            print("command reset correct sent!")
+            uart.on("data")
+        end, 0)
+    
 end
+
+function M.IR_reset()
+    IR_reset = {0xFA, 0xF6}    
+    uart.alt(1)
+    for key, value in ipairs(IR_reset) do uart.write(0, value) end
+    
+        uart.on("data", "\0", function(data)
+            uart.alt(0)                             
+            print("command reset correct sent!")
+            uart.on("data")
+        end, 0)
+    
+end
+
 
 function M.IR_read2()
     uart.alt(1)
