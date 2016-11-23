@@ -5,7 +5,7 @@ control = require "control"
 
 files = file.list()  -- Lists all files in the file system.
 
-control.status_LED(1000) -- blink status LED
+control.status_LED(100) -- blink status LED
 
 misc.BTN2_press()  -- button press interrupt io3
 

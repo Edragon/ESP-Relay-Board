@@ -4,7 +4,7 @@ mconf = require "mqtt_config"
 
 tmr.delay(1000)
 
-control.status_LED(3000)
+control.status_LED(5000)
 
 gpio6 = 6
 gpio.mode(gpio6, gpio.OUTPUT)
@@ -62,6 +62,11 @@ m:connect(mconf.HOST, mconf.PORT, 0, function(conn)
 
     m:subscribe(node.chipid(), 0, function(conn) 
             print("subscribe on topics: " .. node.chipid() )
+
+    m:publish(node.chipid(), node.chipid() .. " Board online!", 0, 0, function(conn) 
+            print(node.chipid() .. " Board online!") 
+        end)
+        
     end)
 
 

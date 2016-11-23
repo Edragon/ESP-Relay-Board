@@ -4,7 +4,7 @@ mconf = require "mqtt_config"
 
 tmr.delay(100000)
 
-control.status_LED(3000)
+control.status_LED(5000)
 
 gpio6 = 6
 gpio.mode(gpio6, gpio.OUTPUT)
