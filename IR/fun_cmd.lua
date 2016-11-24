@@ -1,3 +1,4 @@
+dofile("file_check.lua")
     
 function IR_read_data()
     IR_read = {0xFA, 0xFD}    
@@ -40,23 +41,27 @@ function IR_retrieve_data()
         correct_data = string.match(byte_data,"FA.+")
         uart.on("data")   
         uart.alt(0)
-        print(byte_data)
-        file_write(correct_data)
     end, 0)
-    --print(byte_data) 
-    return byte_data
+    --print (byte_data)
+    return correct_data
 end  
 
-function file_write(wdata)
-    -- write user and pass
-    file.remove("IR_ID.txt")
-    file.open("IR_ID.txt", "w")
-    file.writeline(wdata)
-    file.close()
+
+
+function check_write(inkey, wdata)
+    print ("start to check and write")
+    data_pair = f_read()
+    data_pair[inkey] = wdata
+    f_write(data_pair)
 end      
 
 function data_handle()
+    inkey = "16"
     IR_read_data()
-    IR_retrieve_data()
-    print (raw_data)
+    wdata = IR_retrieve_data()
+    tmr.alarm(1, 2000, tmr.ALARM_SINGLE, function() 
+        print (wdata)
+        check_write(inkey, wdata)
+    end)    
+    
 end
