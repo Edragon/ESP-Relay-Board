@@ -1,6 +1,3 @@
-
-
-
 function f_read()
     ir_file = "IR_code.txt"
     local ir_data = {}
