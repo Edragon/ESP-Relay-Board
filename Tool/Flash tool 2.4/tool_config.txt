@@ -1,23 +1,23 @@
 path_data:
-empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R2_ID control added.bin;0x00000;
-choosed:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\Firmware\nodemcu_ADC_MQTT_HTTP_9600.bin;0x00000;
+choosed:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\firmware\R2_ID control added.bin;0x00000;
+empty:E:\HE\DL\nodemcu-master-22-modules-2017-01-10-04-15-30-float (1).bin;0x00000;
 empty:C:\Users\hechao\nodemcu-firmware\bin\nodemcu_float_master_20161019-0617.bin;0x00000;
-empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\Firmware\AT\v1.3.0.2 AT Firmware.bin;0x00000;
+empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\Firmware Default build\AT\v1.3.0.2 AT Firmware.bin;0x00000;
 empty:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R2_ID control added.bin;0x00000;
 empty:;0x3fc000;
 empty:;0x00000;
-default_path:C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board;
+default_path:E:\HE\DL;
 COM1:
 com_port1:16
 baudrate1:4
 COM2:
-com_port2:5
+com_port2:18
 baudrate2:4
 COM3:
-com_port3:6
+com_port3:19
 baudrate3:4
 COM4:
-com_port4:7
+com_port4:20
 baudrate4:4
 COM5:
 com_port5:0
@@ -36,10 +36,10 @@ ID_BIND:
 id_bind_addr:0x
 
 CRYSTAL:1
-SPIAUTOSET:0
+SPIAUTOSET:1
 SPICFGDIS:0
 SPISPEED:0
-SPIMODE:2
+SPIMODE:0
 FLASHSIZE:4
 EFUSE_MODE:1
 TARGETPOWER1:20.500000

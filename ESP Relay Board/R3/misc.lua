@@ -21,7 +21,7 @@ function M.con_write(user, pass)
 end
 
 function M.con_idcontrol()
-    file.open("IDcontrol.txt", "w")
+    file.open("registered.txt", "w")
     file.writeline("nothing, file existx")
     file.close()
 end
@@ -30,7 +30,7 @@ end
 function trig()
     print("BTN2 button pressed")
     file.remove("config.txt")
-    file.remove("IDcontrol.txt")
+    file.remove("registered.txt")
     tmr.alarm(6, 2000, 0, function()
         node.restart()
     end)
@@ -52,5 +52,11 @@ function M.BTN1_press()
     gpio.trig(4, "down", rst)   -- run fun trig finally
 end
 
+function M.get_mac6()
+    r_mac = wifi.sta.getmac()
+    mac6 = string.sub(r_mac, 10,11)..string.sub(r_mac, 13,14)..string.sub(r_mac, 16,17)
+    mac_6 = string.upper(mac6)
+    return mac_6
+end
 
 return M

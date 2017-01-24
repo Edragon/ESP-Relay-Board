@@ -22,8 +22,7 @@ end
 -- One on/off relay
 function M.relay_onoff()
 -- relay on off twice
-    gpio.mode(6, gpio.OUTPUT)
-    gpio.mode(7, gpio.OUTPUT)
+
     gpio.write(6, gpio.LOW)
     gpio.write(7, gpio.LOW)
 
@@ -44,7 +43,7 @@ end
 
 -- loop relay
 function M.relay_6(delay, mode)
-    gpio.mode(6, gpio.OUTPUT)
+    --gpio.mode(6, gpio.OUTPUT)
     status1 = 0
         
     tmr.alarm(2, delay, mode, function()
@@ -61,7 +60,7 @@ end
 
 
 function M.relay_7(delay, mode)
-    gpio.mode(7, gpio.OUTPUT)
+    --gpio.mode(7, gpio.OUTPUT)
     status2 = 0
         
     tmr.alarm(3, delay, mode, function()
@@ -75,4 +74,5 @@ function M.relay_7(delay, mode)
     end)
       
 end
+
 return M

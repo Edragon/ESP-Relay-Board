@@ -2,10 +2,14 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "NodeMCU-Debug",
-            "type": "nodemcu",
+            "name": "Ravi Debugger",
+            "type": "lua",
             "request": "launch",
-            "program": "${file}"
+            "program": "${workspaceRoot}/test.lua",
+            "stopOnEntry": false,
+            "cwd": "${workspaceRoot}",
+            "LUA_PATH": "${workspaceRoot}/?.lua",
+            "LUA_CPATH": "${workspaceRoot}/?.dll"
         }
     ]
 }
