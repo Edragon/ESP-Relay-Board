@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-01-25T03:01:47</date>
-  <millis>1485284507728</millis>
+  <date>2017-04-19T16:12:42</date>
+  <millis>1492589562175</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:47</date>
-  <millis>1485284507734</millis>
+  <date>2017-04-19T16:12:42</date>
+  <millis>1492589562191</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:47</date>
-  <millis>1485284507737</millis>
+  <date>2017-04-19T16:12:42</date>
+  <millis>1492589562199</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets (LUA): loading...</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:47</date>
-  <millis>1485284507742</millis>
+  <date>2017-04-19T16:12:42</date>
+  <millis>1492589562205</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets (LUA) load: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:48</date>
-  <millis>1485284508166</millis>
+  <date>2017-04-19T16:12:58</date>
+  <millis>1492589578385</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,19 +57,19 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:48</date>
-  <millis>1485284508172</millis>
+  <date>2017-04-19T16:12:58</date>
+  <millis>1492589578439</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>found last saved serial port COM17</message>
+  <message>Could not find any serial port. Please, connect device and ReScan</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:48</date>
-  <millis>1485284508176</millis>
+  <date>2017-04-19T16:12:58</date>
+  <millis>1492589578441</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,64 +79,9 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:50</date>
-  <millis>1485284510803</millis>
+  <date>2017-04-19T16:15:33</date>
+  <millis>1492589733119</millis>
   <sequence>13</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Try to open file control.lua</message>
-</record>
-<record>
-  <date>2017-01-25T03:01:50</date>
-  <millis>1485284510804</millis>
-  <sequence>14</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R1\control.lua</message>
-</record>
-<record>
-  <date>2017-01-25T03:01:50</date>
-  <millis>1485284510808</millis>
-  <sequence>15</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Try to load file control.lua</message>
-</record>
-<record>
-  <date>2017-01-25T03:01:51</date>
-  <millis>1485284511035</millis>
-  <sequence>16</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Loading control.lua: Success.</message>
-</record>
-<record>
-  <date>2017-01-25T03:01:51</date>
-  <millis>1485284511036</millis>
-  <sequence>17</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Open "control.lua": Success.</message>
-</record>
-<record>
-  <date>2017-01-25T03:01:55</date>
-  <millis>1485284515013</millis>
-  <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -145,20 +90,20 @@
   <message>Try to open file init.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:55</date>
-  <millis>1485284515018</millis>
-  <sequence>19</sequence>
+  <date>2017-04-19T16:15:33</date>
+  <millis>1492589733119</millis>
+  <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R1\init.lua</message>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\init.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:55</date>
-  <millis>1485284515028</millis>
-  <sequence>20</sequence>
+  <date>2017-04-19T16:15:33</date>
+  <millis>1492589733119</millis>
+  <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -167,9 +112,9 @@
   <message>Try to load file init.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:55</date>
-  <millis>1485284515056</millis>
-  <sequence>21</sequence>
+  <date>2017-04-19T16:15:33</date>
+  <millis>1492589733197</millis>
+  <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -178,9 +123,9 @@
   <message>Loading init.lua: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:55</date>
-  <millis>1485284515057</millis>
-  <sequence>22</sequence>
+  <date>2017-04-19T16:15:33</date>
+  <millis>1492589733197</millis>
+  <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -189,9 +134,9 @@
   <message>Open "init.lua": Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:57</date>
-  <millis>1485284517580</millis>
-  <sequence>23</sequence>
+  <date>2017-04-19T16:15:36</date>
+  <millis>1492589736932</millis>
+  <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -200,20 +145,20 @@
   <message>Try to open file main.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:57</date>
-  <millis>1485284517581</millis>
-  <sequence>24</sequence>
+  <date>2017-04-19T16:15:36</date>
+  <millis>1492589736932</millis>
+  <sequence>19</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R1\main.lua</message>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\main.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:57</date>
-  <millis>1485284517584</millis>
-  <sequence>25</sequence>
+  <date>2017-04-19T16:15:36</date>
+  <millis>1492589736932</millis>
+  <sequence>20</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -222,9 +167,9 @@
   <message>Try to load file main.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:57</date>
-  <millis>1485284517618</millis>
-  <sequence>26</sequence>
+  <date>2017-04-19T16:15:37</date>
+  <millis>1492589737057</millis>
+  <sequence>21</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -233,9 +178,9 @@
   <message>Loading main.lua: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:01:57</date>
-  <millis>1485284517619</millis>
-  <sequence>27</sequence>
+  <date>2017-04-19T16:15:37</date>
+  <millis>1492589737073</millis>
+  <sequence>22</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -244,8 +189,63 @@
   <message>Open "main.lua": Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:05</date>
-  <millis>1485284525214</millis>
+  <date>2017-04-19T16:15:43</date>
+  <millis>1492589743294</millis>
+  <sequence>23</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open file config.txt</message>
+</record>
+<record>
+  <date>2017-04-19T16:15:43</date>
+  <millis>1492589743294</millis>
+  <sequence>24</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\config.txt</message>
+</record>
+<record>
+  <date>2017-04-19T16:15:43</date>
+  <millis>1492589743294</millis>
+  <sequence>25</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to load file config.txt</message>
+</record>
+<record>
+  <date>2017-04-19T16:15:43</date>
+  <millis>1492589743325</millis>
+  <sequence>26</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Loading config.txt: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:15:43</date>
+  <millis>1492589743325</millis>
+  <sequence>27</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open "config.txt": Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:16:55</date>
+  <millis>1492589815673</millis>
   <sequence>28</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -255,19 +255,19 @@
   <message>Try to open file misc.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:05</date>
-  <millis>1485284525216</millis>
+  <date>2017-04-19T16:16:55</date>
+  <millis>1492589815675</millis>
   <sequence>29</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R1\misc.lua</message>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\misc.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:05</date>
-  <millis>1485284525218</millis>
+  <date>2017-04-19T16:16:55</date>
+  <millis>1492589815678</millis>
   <sequence>30</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -277,8 +277,8 @@
   <message>Try to load file misc.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:05</date>
-  <millis>1485284525321</millis>
+  <date>2017-04-19T16:16:55</date>
+  <millis>1492589815715</millis>
   <sequence>31</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -288,8 +288,8 @@
   <message>Loading misc.lua: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:05</date>
-  <millis>1485284525323</millis>
+  <date>2017-04-19T16:16:55</date>
+  <millis>1492589815717</millis>
   <sequence>32</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -299,207 +299,493 @@
   <message>Open "misc.lua": Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:21</date>
-  <millis>1485284541418</millis>
+  <date>2017-04-19T16:20:48</date>
+  <millis>1492590048676</millis>
   <sequence>33</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to open file mqtt.lua</message>
+  <message>New empty file ready.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:21</date>
-  <millis>1485284541419</millis>
+  <date>2017-04-19T16:23:40</date>
+  <millis>1492590220200</millis>
   <sequence>34</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R1\mqtt.lua</message>
+  <message>Saving new file...</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:21</date>
-  <millis>1485284541422</millis>
+  <date>2017-04-19T16:23:47</date>
+  <millis>1492590227381</millis>
   <sequence>35</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to load file mqtt.lua</message>
+  <message>Try to saving file readme ...</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:21</date>
-  <millis>1485284541453</millis>
+  <date>2017-04-19T16:23:47</date>
+  <millis>1492590227381</millis>
   <sequence>36</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Loading mqtt.lua: Success.</message>
+  <message>Save file readme: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:21</date>
-  <millis>1485284541454</millis>
+  <date>2017-04-19T16:23:47</date>
+  <millis>1492590227434</millis>
   <sequence>37</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Open "mqtt.lua": Success.</message>
+  <message>FileSaveESP: Serial port not open. Cancel.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:28</date>
-  <millis>1485284548074</millis>
+  <date>2017-04-19T16:23:54</date>
+  <millis>1492590234078</millis>
   <sequence>38</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to open file net.lua</message>
+  <message>We save known file readme</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:28</date>
-  <millis>1485284548075</millis>
+  <date>2017-04-19T16:23:54</date>
+  <millis>1492590234078</millis>
   <sequence>39</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-Project\ESP\ESP Relay Board\R1\net.lua</message>
+  <message>Try to saving file readme ...</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:28</date>
-  <millis>1485284548118</millis>
+  <date>2017-04-19T16:23:54</date>
+  <millis>1492590234078</millis>
   <sequence>40</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to load file net.lua</message>
+  <message>Save file readme: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:28</date>
-  <millis>1485284548148</millis>
+  <date>2017-04-19T16:23:54</date>
+  <millis>1492590234078</millis>
   <sequence>41</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Loading net.lua: Success.</message>
+  <message>FileSaveESP: Serial port not open. Cancel.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:28</date>
-  <millis>1485284548149</millis>
+  <date>2017-04-19T16:27:01</date>
+  <millis>1492590421445</millis>
   <sequence>42</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Open "net.lua": Success.</message>
+  <message>We save known file readme</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553110</millis>
+  <date>2017-04-19T16:27:01</date>
+  <millis>1492590421447</millis>
   <sequence>43</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>FileTab removed: Success.</message>
+  <message>Try to saving file readme ...</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553112</millis>
+  <date>2017-04-19T16:27:01</date>
+  <millis>1492590421450</millis>
   <sequence>44</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File close: Success.</message>
+  <message>Save file readme: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553117</millis>
+  <date>2017-04-19T16:27:01</date>
+  <millis>1492590421454</millis>
   <sequence>45</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>FileTab removed: Success.</message>
+  <message>FileSaveESP: Serial port not open. Cancel.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553118</millis>
+  <date>2017-04-19T16:27:06</date>
+  <millis>1492590426639</millis>
   <sequence>46</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File close: Success.</message>
+  <message>Try to open file mqtt_config.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553123</millis>
+  <date>2017-04-19T16:27:06</date>
+  <millis>1492590426641</millis>
   <sequence>47</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>FileTab removed: Success.</message>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\mqtt_config.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553126</millis>
+  <date>2017-04-19T16:27:06</date>
+  <millis>1492590426645</millis>
   <sequence>48</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File close: Success.</message>
+  <message>Try to load file mqtt_config.lua</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553131</millis>
+  <date>2017-04-19T16:27:06</date>
+  <millis>1492590426672</millis>
   <sequence>49</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>FileTab removed: Success.</message>
+  <message>Loading mqtt_config.lua: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553132</millis>
+  <date>2017-04-19T16:27:06</date>
+  <millis>1492590426673</millis>
   <sequence>50</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File close: Success.</message>
+  <message>Open "mqtt_config.lua": Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553137</millis>
+  <date>2017-04-19T16:27:24</date>
+  <millis>1492590444089</millis>
   <sequence>51</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file readme</message>
+</record>
+<record>
+  <date>2017-04-19T16:27:24</date>
+  <millis>1492590444096</millis>
+  <sequence>52</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file readme ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:27:24</date>
+  <millis>1492590444100</millis>
+  <sequence>53</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file readme: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:27:24</date>
+  <millis>1492590444110</millis>
+  <sequence>54</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileSaveESP: Serial port not open. Cancel.</message>
+</record>
+<record>
+  <date>2017-04-19T16:28:33</date>
+  <millis>1492590513796</millis>
+  <sequence>55</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open file control.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:28:33</date>
+  <millis>1492590513799</millis>
+  <sequence>56</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\control.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:28:33</date>
+  <millis>1492590513815</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to load file control.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:28:33</date>
+  <millis>1492590513853</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Loading control.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:28:33</date>
+  <millis>1492590513855</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open "control.lua": Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:18</date>
+  <millis>1492590678797</millis>
+  <sequence>60</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file misc.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:18</date>
+  <millis>1492590678811</millis>
+  <sequence>61</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file misc.lua ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:18</date>
+  <millis>1492590678838</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file misc.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:18</date>
+  <millis>1492590678863</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileSaveESP: Serial port not open. Cancel.</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:58</date>
+  <millis>1492590718727</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file misc.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:58</date>
+  <millis>1492590718730</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file misc.lua ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:58</date>
+  <millis>1492590718734</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file misc.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:31:58</date>
+  <millis>1492590718759</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileSaveESP: Serial port not open. Cancel.</message>
+</record>
+<record>
+  <date>2017-04-19T16:32:08</date>
+  <millis>1492590728546</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open file mqtt_ID.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:32:08</date>
+  <millis>1492590728548</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\mqtt_ID.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:32:08</date>
+  <millis>1492590728550</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to load file mqtt_ID.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:32:08</date>
+  <millis>1492590728644</millis>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Loading mqtt_ID.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:32:08</date>
+  <millis>1492590728645</millis>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open "mqtt_ID.lua": Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:00</date>
+  <millis>1492590780735</millis>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782620</millis>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file mqtt_ID.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782621</millis>
+  <sequence>75</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file mqtt_ID.lua ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782627</millis>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file mqtt_ID.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782651</millis>
+  <sequence>77</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -508,9 +794,9 @@
   <message>FileTab removed: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553138</millis>
-  <sequence>52</sequence>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782652</millis>
+  <sequence>78</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -519,9 +805,273 @@
   <message>File close: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553173</millis>
-  <sequence>53</sequence>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782666</millis>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782667</millis>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782681</millis>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782683</millis>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:02</date>
+  <millis>1492590782684</millis>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:04</date>
+  <millis>1492590784898</millis>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file readme</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:04</date>
+  <millis>1492590784899</millis>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file readme ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:04</date>
+  <millis>1492590784953</millis>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file readme: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:04</date>
+  <millis>1492590784976</millis>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:04</date>
+  <millis>1492590784977</millis>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:04</date>
+  <millis>1492590784979</millis>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788094</millis>
+  <sequence>90</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file misc.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788095</millis>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file misc.lua ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788097</millis>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file misc.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788119</millis>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788120</millis>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788138</millis>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788139</millis>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:08</date>
+  <millis>1492590788140</millis>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789113</millis>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file main.lua</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789114</millis>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file main.lua ...</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789153</millis>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file main.lua: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789175</millis>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab removed: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789178</millis>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+<record>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789242</millis>
+  <sequence>103</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -530,9 +1080,9 @@
   <message>FileTab cleared: Success.</message>
 </record>
 <record>
-  <date>2017-01-25T03:02:33</date>
-  <millis>1485284553174</millis>
-  <sequence>54</sequence>
+  <date>2017-04-19T16:33:09</date>
+  <millis>1492590789243</millis>
+  <sequence>104</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
