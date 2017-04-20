@@ -1,11 +1,14 @@
-control = require "control"
-MSC = require "misc"
-mac_6 = MSC.get_mac6()
-CON = require "mqtt_config"
+CTRL_D = require "board_control"
+MSC_D = require "board_misc"
+
+mac_6 = MSC_D.get_mac6()
+
+MSC_D.brd_check_server()
+CON_D = require (server_use)
 
 --tmr.delay(1000)
 
-control.status_LED(5000)
+CTRL_D.status_LED(5000)
 
 --gpio6 = 6
 --gpio.mode(gpio6, gpio.OUTPUT)
@@ -18,7 +21,7 @@ control.status_LED(5000)
 --print (CON.MQTTPASS)
 
 -- init mqtt client with keepalive timer 120sec
-m = mqtt.Client(CON.ENDPOINT, 120, CON.MQTTUSER, CON.MQTTPASS)
+m = mqtt.Client(CON_D.ENDPOINT, 120, CON_D.MQTTUSER, CON_D.MQTTPASS)
 
 -- setup Last Will and Testament (optional)
 -- Broker will publish a message with qos = 0, retain = 0, data = "offline" 
@@ -49,7 +52,10 @@ m:on("message", function(conn, topic, data)
     elseif data == "2OFF" then
         print("received message: 2OFF")
         gpio.write(7, gpio.LOW)
-        
+
+    elseif string.sub(data, 1, 6) == "server" then
+        MSC_D.brd_write_server(string.sub(data, 7,7))
+        node.restart()   
     end
         
   end
@@ -60,7 +66,7 @@ end)
 
 
 -- connect
-m:connect(CON.HOST, CON.PORT, 0, function(conn)
+m:connect(CON_D.HOST, CON_D.PORT, 0, function(conn)
     print("connecting to MQTT")
     --print("Your ID: " ..node.chipid())
 

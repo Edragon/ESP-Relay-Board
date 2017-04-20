@@ -1,5 +1,5 @@
-MSC = require "misc"
-CTRL = require "control"
+MSC = require "board_misc"
+CTRL = require "board_control"
 
 gpio.mode(6, gpio.OUTPUT)
 gpio.mode(7, gpio.OUTPUT)
@@ -9,14 +9,15 @@ files = file.list()  -- Lists all files in the file system.
 CTRL.status_LED(100) -- blink status LED
 MSC.BTN2_press()  -- button press interrupt io3
 
-dofile("net.lc")
+dofile("wifi_net.lc")
 
-if files["config.txt"] then
+
+if files["wifi_config.txt"] then
     wifi.setmode(wifi.STATIONAP)
     --wifi.sta.sethostname("mynode")
     -- do normal connect
     wifi.sta.autoconnect(1) -- auto connect
-    MSC.con_read()
+    MSC.wifi_conf_read()
     print(" Config exist, user>".. user .. ", pass>" .. password .. ", now set station mode and connect")
     
     wifi.sta.config(user, password)
@@ -29,12 +30,12 @@ if files["config.txt"] then
         else
             print("connected.. IP is: " .. wifi.sta.getip())
             
-            if files["registered.txt"] then
-                print("Running file mqtt_ID")
-                dofile("mqtt_ID.lc")
+            if files["check_mode.txt"] then
+                print("Running file mqtt_ctrl_ID")
+                dofile("mqtt_ctrl_ID.lc")
             else
                 print("Running file mqtt")
-                dofile("mqtt.lc")
+                dofile("mqtt_ctrl.lc")
             end
 
             tmr.stop(4)
@@ -51,7 +52,7 @@ else
     
     wifi.startsmart(0, function(ssid, password)
         print(string.format("Success. SSID: %s ; PASSWORD: %s", ssid, password)) 
-        MSC.con_write(ssid, password)
+        MSC.wifi_conf_write(ssid, password)
         wifi.sta.config(ssid, password)
         wifi.sta.connect() 
         wifi.sta.autoconnect(1) 

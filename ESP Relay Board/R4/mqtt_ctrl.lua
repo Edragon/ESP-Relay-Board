@@ -1,9 +1,10 @@
-CTRL = require "control"
+CTRL = require "board_control"
+MSC = require "board_misc"
 
-MSC = require "misc"
 mac_6 = MSC.get_mac6()
 
-CON = require "mqtt_config"
+MSC.brd_check_server()
+CON = require (server_use)
 
 --print ("mac last 6 digis is:   ".. mac_6)
 --tmr.delay(10000)
@@ -40,7 +41,7 @@ m:on("message", function(conn, topic, data)
   if topic == "Light1" then
     if data == mac_6.."ON" then
         print("switch to MAC last 6 digis ID control mode")
-        MSC.con_idcontrol()
+        MSC.brd_check_mode()
         node.restart()
     end
   end
