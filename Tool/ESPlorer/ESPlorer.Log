@@ -2,8 +2,8 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679289</millis>
+  <date>2017-05-26T19:48:58</date>
+  <millis>1495799338490</millis>
   <sequence>6</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -13,8 +13,8 @@
   <message>Set new color theme: Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679297</millis>
+  <date>2017-05-26T19:48:58</date>
+  <millis>1495799338505</millis>
   <sequence>7</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -24,8 +24,8 @@
   <message>Load saved settings: DONE.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679302</millis>
+  <date>2017-05-26T19:48:58</date>
+  <millis>1495799338505</millis>
   <sequence>8</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -35,8 +35,8 @@
   <message>Snippets (LUA): loading...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679309</millis>
+  <date>2017-05-26T19:48:58</date>
+  <millis>1495799338505</millis>
   <sequence>9</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -46,8 +46,8 @@
   <message>Snippets (LUA) load: Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679988</millis>
+  <date>2017-05-26T19:48:59</date>
+  <millis>1495799339162</millis>
   <sequence>10</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -57,8 +57,8 @@
   <message>Scan system...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679995</millis>
+  <date>2017-05-26T19:48:59</date>
+  <millis>1495799339177</millis>
   <sequence>11</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -68,8 +68,8 @@
   <message>found last saved serial port COM17</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:39</date>
-  <millis>1492661679999</millis>
+  <date>2017-05-26T19:48:59</date>
+  <millis>1495799339193</millis>
   <sequence>12</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -79,8 +79,8 @@
   <message>Scan done.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:43</date>
-  <millis>1492661683773</millis>
+  <date>2017-05-26T19:48:59</date>
+  <millis>1495799339974</millis>
   <sequence>13</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -90,30 +90,30 @@
   <message>Serial port COM17 save as default.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:43</date>
-  <millis>1492661683776</millis>
+  <date>2017-05-26T19:48:59</date>
+  <millis>1495799339974</millis>
   <sequence>14</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Baud rate 9600 save as default.</message>
+  <message>Baud rate 115200 save as default.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:43</date>
-  <millis>1492661683779</millis>
+  <date>2017-05-26T19:48:59</date>
+  <millis>1495799339974</millis>
   <sequence>15</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to open port COM17, baud 9600, 8N1</message>
+  <message>Try to open port COM17, baud 115200, 8N1</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:43</date>
-  <millis>1492661683907</millis>
+  <date>2017-05-26T19:49:00</date>
+  <millis>1495799340021</millis>
   <sequence>16</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -123,8 +123,8 @@
   <message>Open port COM17 - Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:44</date>
-  <millis>1492661684018</millis>
+  <date>2017-05-26T19:49:00</date>
+  <millis>1495799340144</millis>
   <sequence>17</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -134,8 +134,8 @@
   <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:44</date>
-  <millis>1492661684194</millis>
+  <date>2017-05-26T19:49:00</date>
+  <millis>1495799340238</millis>
   <sequence>18</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
@@ -146,9 +146,53 @@
 Communication with MCU established.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:47</date>
-  <millis>1492661687869</millis>
+  <date>2017-05-26T19:49:01</date>
+  <millis>1495799341866</millis>
   <sequence>19</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:02</date>
+  <millis>1495799342053</millis>
+  <sequence>20</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:02</date>
+  <millis>1495799342256</millis>
+  <sequence>21</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:02</date>
+  <millis>1495799342444</millis>
+  <sequence>22</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344537</millis>
+  <sequence>23</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -157,9 +201,9 @@ Communication with MCU established.</message>
   <message>FileManager: Add EventListener: Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:47</date>
-  <millis>1492661687876</millis>
-  <sequence>20</sequence>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344537</millis>
+  <sequence>24</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -168,9 +212,9 @@ Communication with MCU established.</message>
   <message>FileManager: Starting...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:48</date>
-  <millis>1492661688067</millis>
-  <sequence>21</sequence>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344725</millis>
+  <sequence>25</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -179,251 +223,152 @@ Communication with MCU established.</message>
   <message>sending: _dir=function() local k,v,l print("~~~File ".."list START~~~") for k,v in pairs(file.list()) do l = string.format("%-15s",k) print(l.." : "..v.." bytes") end print("~~~File ".."list END~~~") end _dir() _dir=nil</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:48</date>
-  <millis>1492661688944</millis>
-  <sequence>22</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>27</thread>
-  <message>FileManager: File list found! Do parsing...</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689017</millis>
-  <sequence>23</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file board_control.lc</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689033</millis>
-  <sequence>24</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file board_misc.lc</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689054</millis>
-  <sequence>25</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file check_server.txt</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689078</millis>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344834</millis>
   <sequence>26</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file init.lua</message>
+  <thread>25</thread>
+  <message>FileManager: File list found! Do parsing...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689087</millis>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344928</millis>
   <sequence>27</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file main.lc</message>
+  <thread>25</thread>
+  <message>FileManager found file init.lua</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689111</millis>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344944</millis>
   <sequence>28</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file mqtt_ctrl.lc</message>
+  <thread>25</thread>
+  <message>FileManager found file pwm_ctrl.lua</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689130</millis>
+  <date>2017-05-26T19:49:04</date>
+  <millis>1495799344944</millis>
   <sequence>29</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file mqtt_ctrl_ID.lc</message>
+  <thread>25</thread>
+  <message>FileManager: File list parsing done, found 2 file(s).</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689145</millis>
+  <date>2017-05-26T19:49:05</date>
+  <millis>1495799345037</millis>
   <sequence>30</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file mqtt_server_1.lua</message>
+  <thread>25</thread>
+  <message>sending:r,u,t=file.fsinfo() print("Total : "..t.." bytes\r\nUsed  : "..u.." bytes\r\nRemain: "..r.." bytes\r\n") r=nil u=nil t=nil&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689184</millis>
+  <date>2017-05-26T19:49:14</date>
+  <millis>1495799354960</millis>
   <sequence>31</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file mqtt_server_2.lua</message>
+  <thread>13</thread>
+  <message>Try to open file init.lua</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689194</millis>
+  <date>2017-05-26T19:49:14</date>
+  <millis>1495799354960</millis>
   <sequence>32</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file script1.lua</message>
+  <thread>13</thread>
+  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Light\test\init.lua</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689210</millis>
+  <date>2017-05-26T19:49:14</date>
+  <millis>1495799354976</millis>
   <sequence>33</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager found file wifi_net.lc</message>
+  <thread>13</thread>
+  <message>Try to load file init.lua</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689227</millis>
+  <date>2017-05-26T19:49:15</date>
+  <millis>1495799355054</millis>
   <sequence>34</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>FileManager: File list parsing done, found 11 file(s).</message>
+  <thread>13</thread>
+  <message>Loading init.lua: Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:49</date>
-  <millis>1492661689256</millis>
+  <date>2017-05-26T19:49:15</date>
+  <millis>1495799355054</millis>
   <sequence>35</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>27</thread>
-  <message>sending:r,u,t=file.fsinfo() print("Total : "..t.." bytes\r\nUsed  : "..u.." bytes\r\nRemain: "..r.." bytes\r\n") r=nil u=nil t=nil&lt;CR&gt;&lt;LF&gt;</message>
+  <thread>13</thread>
+  <message>Open "init.lua": Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:51</date>
-  <millis>1492661691734</millis>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372149</millis>
   <sequence>36</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to open file check_server.txt</message>
+  <message>We save known file init.lua</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:51</date>
-  <millis>1492661691736</millis>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372149</millis>
   <sequence>37</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>File name: C:\Users\hechao\Dropbox\ED_work\6-CodeProject\ESPcode\ESP Relay Board\R4\check_server.txt</message>
+  <message>Try to saving file init.lua ...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:51</date>
-  <millis>1492661691743</millis>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372165</millis>
   <sequence>38</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to load file check_server.txt</message>
+  <message>Save file init.lua: Success.</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:51</date>
-  <millis>1492661691829</millis>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372165</millis>
   <sequence>39</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Loading check_server.txt: Success.</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:51</date>
-  <millis>1492661691830</millis>
-  <sequence>40</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Open "check_server.txt": Success.</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695491</millis>
-  <sequence>41</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>We save known file check_server.txt</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695494</millis>
-  <sequence>42</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Try to saving file check_server.txt ...</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695503</millis>
-  <sequence>43</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>Save file check_server.txt: Success.</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695518</millis>
-  <sequence>44</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -432,9 +377,9 @@ Communication with MCU established.</message>
   <message>FileSaveESP: Try to save file to ESP...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695521</millis>
-  <sequence>45</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372165</millis>
+  <sequence>40</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -443,9 +388,9 @@ Communication with MCU established.</message>
   <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695545</millis>
-  <sequence>46</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372180</millis>
+  <sequence>41</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -454,9 +399,9 @@ Communication with MCU established.</message>
   <message>DataTurboSender: start "Smart Mode"</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695547</millis>
-  <sequence>47</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372180</millis>
+  <sequence>42</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -465,218 +410,42 @@ Communication with MCU established.</message>
   <message>FileSaveESP-Turbo: Starting...</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695739</millis>
-  <sequence>48</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372352</millis>
+  <sequence>43</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:local FILE="check_server.txt" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,9600,8,0,1,0)</message>
+  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695746</millis>
-  <sequence>49</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372368</millis>
+  <sequence>44</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
-  <message>recv:l</message>
+  <thread>31</thread>
+  <message>recv:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695755</millis>
-  <sequence>50</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372524</millis>
+  <sequence>45</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
-  <message>recv:ocal FILE</message>
+  <thread>31</thread>
+  <message>recv:&gt; </message>
 </record>
 <record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695770</millis>
-  <sequence>51</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:="check_server</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695773</millis>
-  <sequence>52</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:.tx</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695775</millis>
-  <sequence>53</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:t"</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695780</millis>
-  <sequence>54</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv: file</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695791</millis>
-  <sequence>55</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:.remove(FIL</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695795</millis>
-  <sequence>56</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:E) f</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695798</millis>
-  <sequence>57</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:il</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695815</millis>
-  <sequence>58</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:e.open(FILE,"w+"</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695828</millis>
-  <sequence>59</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:) uart.setup(</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695834</millis>
-  <sequence>60</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:0,9600</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695837</millis>
-  <sequence>61</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:,8</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695840</millis>
-  <sequence>62</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:,0,</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695846</millis>
-  <sequence>63</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:1,0)&lt;CR&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:55</date>
-  <millis>1492661695849</millis>
-  <sequence>64</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696514</millis>
-  <sequence>65</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696518</millis>
-  <sequence>66</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv: </message>
-</record>
-<record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696556</millis>
-  <sequence>67</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372555</millis>
+  <sequence>46</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -685,97 +454,69 @@ Communication with MCU established.</message>
   <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
 </record>
 <record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696742</millis>
-  <sequence>68</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372571</millis>
+  <sequence>47</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
-  <message>recv:&gt;</message>
+  <thread>31</thread>
+  <message>recv:&gt;&gt; </message>
 </record>
 <record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696745</millis>
-  <sequence>69</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372602</millis>
+  <sequence>48</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
+  <thread>13</thread>
+  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372634</millis>
+  <sequence>49</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>31</thread>
   <message>recv:&gt; </message>
 </record>
 <record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696770</millis>
-  <sequence>70</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372665</millis>
+  <sequence>50</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,9600,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
+  <message>sending:dofile("pwm_ctrl.lua")
+uart.setup(0, 115200, 8, uart.PARITY_NONE, uart.STOPBITS_1, 1)
+setup_led()
+
+set_led(100, 100, 100, 100) -- R G B W
+</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:56</date>
-  <millis>1492661696998</millis>
-  <sequence>71</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372681</millis>
+  <sequence>51</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
-  <message>recv:&gt;</message>
+  <thread>31</thread>
+  <message>recv:&gt; </message>
 </record>
 <record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697002</millis>
-  <sequence>72</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv: </message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697025</millis>
-  <sequence>73</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>13</thread>
-  <message>sending:1</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697035</millis>
-  <sequence>74</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697043</millis>
-  <sequence>75</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv: </message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697062</millis>
-  <sequence>76</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372712</millis>
+  <sequence>52</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -784,53 +525,20 @@ Communication with MCU established.</message>
   <message>sending:ESP_cmd_close</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697091</millis>
-  <sequence>77</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372712</millis>
+  <sequence>53</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
-  <message>recv:&lt;CR&gt;</message>
+  <thread>31</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697093</millis>
-  <sequence>78</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&lt;LF&gt;-</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697102</millis>
-  <sequence>79</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:-Done--&lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697117</millis>
-  <sequence>80</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&gt; &lt;CR&gt;&lt;LF&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697161</millis>
-  <sequence>81</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372774</millis>
+  <sequence>54</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -839,86 +547,229 @@ Communication with MCU established.</message>
   <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697167</millis>
-  <sequence>82</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372774</millis>
+  <sequence>55</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>32</thread>
-  <message>recv:&lt;CR&gt;</message>
+  <thread>31</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
 </record>
 <record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697171</millis>
-  <sequence>83</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&lt;LF&gt;&gt; &lt;CR&gt;</message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697177</millis>
-  <sequence>84</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>recv:&lt;LF&gt;&gt; </message>
-</record>
-<record>
-  <date>2017-04-20T12:14:57</date>
-  <millis>1492661697278</millis>
-  <sequence>85</sequence>
-  <logger>ESPlorer.ESPlorer</logger>
-  <level>INFO</level>
-  <class>ESPlorer.ESPlorer</class>
-  <method>log</method>
-  <thread>32</thread>
-  <message>Operation done. Duration = 1751 ms</message>
-</record>
-<record>
-  <date>2017-04-20T12:15:04</date>
-  <millis>1492661704280</millis>
-  <sequence>86</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372837</millis>
+  <sequence>56</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>sending:node.restart()&lt;CR&gt;&lt;LF&gt;</message>
+  <message>sending:dofile("init.lua")</message>
 </record>
 <record>
-  <date>2017-04-20T12:15:04</date>
-  <millis>1492661704283</millis>
-  <sequence>87</sequence>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372852</millis>
+  <sequence>57</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>recv:dofile("init.lua")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:32</date>
+  <millis>1495799372977</millis>
+  <sequence>58</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:49:33</date>
+  <millis>1495799373118</millis>
+  <sequence>59</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>31</thread>
+  <message>Operation done. Duration = 938 ms</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:34</date>
+  <millis>1495799374983</millis>
+  <sequence>60</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Try to reconnect with saved baud 9600...</message>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:15:04</date>
-  <millis>1492661704315</millis>
-  <sequence>88</sequence>
+  <date>2017-05-26T19:49:35</date>
+  <millis>1495799375201</millis>
+  <sequence>61</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
   <thread>13</thread>
-  <message>Reconnect: Success. Now we waiting for ESP reboot...</message>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:15:06</date>
-  <millis>1492661706329</millis>
-  <sequence>89</sequence>
+  <date>2017-05-26T19:49:35</date>
+  <millis>1495799375451</millis>
+  <sequence>62</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:35</date>
+  <millis>1495799375639</millis>
+  <sequence>63</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:56</date>
+  <millis>1495799396273</millis>
+  <sequence>64</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:56</date>
+  <millis>1495799396788</millis>
+  <sequence>65</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:56</date>
+  <millis>1495799396991</millis>
+  <sequence>66</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:57</date>
+  <millis>1495799397534</millis>
+  <sequence>67</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:57</date>
+  <millis>1495799397737</millis>
+  <sequence>68</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399018</millis>
+  <sequence>69</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>jssc.SerialPortException: Port name - COM17; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399034</millis>
+  <sequence>70</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Close port COM17 - unknown error.</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399880</millis>
+  <sequence>71</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Serial port COM17 save as default.</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399880</millis>
+  <sequence>72</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399880</millis>
+  <sequence>73</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open port COM17, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399896</millis>
+  <sequence>74</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open port COM17 - Success.</message>
+</record>
+<record>
+  <date>2017-05-26T19:49:59</date>
+  <millis>1495799399943</millis>
+  <sequence>75</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -927,21 +778,734 @@ Communication with MCU established.</message>
   <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
 </record>
 <record>
-  <date>2017-04-20T12:15:06</date>
-  <millis>1492661706389</millis>
+  <date>2017-05-26T19:50:00</date>
+  <millis>1495799400036</millis>
+  <sequence>76</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>34</thread>
+  <message>
+Communication with MCU established.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:01</date>
+  <millis>1495799401693</millis>
+  <sequence>77</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:02</date>
+  <millis>1495799402177</millis>
+  <sequence>78</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:02</date>
+  <millis>1495799402349</millis>
+  <sequence>79</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:02</date>
+  <millis>1495799402524</millis>
+  <sequence>80</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:12</date>
+  <millis>1495799412461</millis>
+  <sequence>81</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:13</date>
+  <millis>1495799413007</millis>
+  <sequence>82</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:13</date>
+  <millis>1495799413351</millis>
+  <sequence>83</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:13</date>
+  <millis>1495799413538</millis>
+  <sequence>84</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:13</date>
+  <millis>1495799413710</millis>
+  <sequence>85</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:14</date>
+  <millis>1495799414585</millis>
+  <sequence>86</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:14</date>
+  <millis>1495799414757</millis>
+  <sequence>87</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:14</date>
+  <millis>1495799414897</millis>
+  <sequence>88</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:15</date>
+  <millis>1495799415756</millis>
+  <sequence>89</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>jssc.SerialPortException: Port name - COM17; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:15</date>
+  <millis>1495799415756</millis>
   <sequence>90</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
   <method>log</method>
-  <thread>33</thread>
+  <thread>13</thread>
+  <message>Close port COM17 - unknown error.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:16</date>
+  <millis>1495799416288</millis>
+  <sequence>91</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Serial port COM17 save as default.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:16</date>
+  <millis>1495799416288</millis>
+  <sequence>92</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:16</date>
+  <millis>1495799416288</millis>
+  <sequence>93</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open port COM17, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:16</date>
+  <millis>1495799416303</millis>
+  <sequence>94</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open port COM17 - Success.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:16</date>
+  <millis>1495799416350</millis>
+  <sequence>95</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:16</date>
+  <millis>1495799416459</millis>
+  <sequence>96</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>35</thread>
   <message>
 Communication with MCU established.</message>
 </record>
 <record>
-  <date>2017-04-20T12:15:58</date>
-  <millis>1492661758937</millis>
-  <sequence>91</sequence>
+  <date>2017-05-26T19:50:19</date>
+  <millis>1495799419256</millis>
+  <sequence>97</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:19</date>
+  <millis>1495799419756</millis>
+  <sequence>98</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:20</date>
+  <millis>1495799420381</millis>
+  <sequence>99</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428139</millis>
+  <sequence>100</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>We save known file init.lua</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428139</millis>
+  <sequence>101</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to saving file init.lua ...</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428139</millis>
+  <sequence>102</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Save file init.lua: Success.</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428154</millis>
+  <sequence>103</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileSaveESP: Try to save file to ESP...</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428154</millis>
+  <sequence>104</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileSaveESP-Turbo: Try to save file to ESP in Turbo Mode...</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428154</millis>
+  <sequence>105</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>DataTurboSender: start "Smart Mode"</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428170</millis>
+  <sequence>106</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileSaveESP-Turbo: Starting...</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428357</millis>
+  <sequence>107</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428357</millis>
+  <sequence>108</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:local FILE="init.lua" file.remove(FILE) file.open(FILE,"w+") uart.setup(0,115200,8,0,1,0)&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428514</millis>
+  <sequence>109</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428545</millis>
+  <sequence>110</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ESP_Receiver=function(rcvBuf) if string.match(rcvBuf,"^ESP_cmd_close")==nil then file.write(string.gsub(rcvBuf, '\r', '')) uart.write(0, "&gt; ") else uart.on("data") </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428561</millis>
+  <sequence>111</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&gt;&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428592</millis>
+  <sequence>112</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:file.flush() file.close() FILE=nil rcvBuf=nil ESP_Receiver=nil uart.setup(0,115200,8,0,1,1) str="\r\n--Done--\r\n&gt; " print(str) str=nil collectgarbage() end end uart.on("data",'\r',ESP_Receiver,0)</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428623</millis>
+  <sequence>113</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428654</millis>
+  <sequence>114</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:dofile("pwm_ctrl.lua")
+
+uart.setup(0, 115200, 8, uart.PARITY_NONE, uart.STOPBITS_1, 1)
+
+setup_led()
+
+set_led(100, 100, 100, 100) -- R G B W
+</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428670</millis>
+  <sequence>115</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428701</millis>
+  <sequence>116</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ESP_cmd_close</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428701</millis>
+  <sequence>117</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;--Done--&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428748</millis>
+  <sequence>118</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428748</millis>
+  <sequence>119</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&lt;CR&gt;&lt;LF&gt;&gt; &lt;CR&gt;&lt;LF&gt;&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428795</millis>
+  <sequence>120</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:dofile("init.lua")</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428811</millis>
+  <sequence>121</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:dofile("init.lua")&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T19:50:28</date>
+  <millis>1495799428936</millis>
+  <sequence>122</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>recv:&gt; </message>
+</record>
+<record>
+  <date>2017-05-26T19:50:29</date>
+  <millis>1495799429029</millis>
+  <sequence>123</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>36</thread>
+  <message>Operation done. Duration = 875 ms</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:56</date>
+  <millis>1495800956964</millis>
+  <sequence>124</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:58</date>
+  <millis>1495800958131</millis>
+  <sequence>125</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959064</millis>
+  <sequence>126</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>jssc.SerialPortException: Port name - COM17; Method name - setEventsMask(); Exception type - Can't set mask.</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959065</millis>
+  <sequence>127</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Close port COM17 - unknown error.</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959737</millis>
+  <sequence>128</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Serial port COM17 save as default.</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959738</millis>
+  <sequence>129</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Baud rate 115200 save as default.</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959740</millis>
+  <sequence>130</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Try to open port COM17, baud 115200, 8N1</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959845</millis>
+  <sequence>131</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>Open port COM17 - Success.</message>
+</record>
+<record>
+  <date>2017-05-26T20:15:59</date>
+  <millis>1495800959894</millis>
+  <sequence>132</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:00</date>
+  <millis>1495800960040</millis>
+  <sequence>133</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>
+Communication with MCU established.</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:00</date>
+  <millis>1495800960051</millis>
+  <sequence>134</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>39</thread>
+  <message>sending:=node.heap()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:01</date>
+  <millis>1495800961584</millis>
+  <sequence>135</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:18</date>
+  <millis>1495800978608</millis>
+  <sequence>136</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:19</date>
+  <millis>1495800979195</millis>
+  <sequence>137</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:19</date>
+  <millis>1495800979373</millis>
+  <sequence>138</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:19</date>
+  <millis>1495800979552</millis>
+  <sequence>139</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:19</date>
+  <millis>1495800979759</millis>
+  <sequence>140</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>sending:ws2812.init()&lt;CR&gt;&lt;LF&gt;</message>
+</record>
+<record>
+  <date>2017-05-26T20:16:20</date>
+  <millis>1495800980906</millis>
+  <sequence>141</sequence>
   <logger>ESPlorer.ESPlorer</logger>
   <level>INFO</level>
   <class>ESPlorer.ESPlorer</class>
@@ -949,3 +1513,48 @@ Communication with MCU established.</message>
   <thread>13</thread>
   <message>Close port COM17 - Success.</message>
 </record>
+<record>
+  <date>2017-05-26T20:34:25</date>
+  <millis>1495802065163</millis>
+  <sequence>142</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File changed. Ask before closing.</message>
+</record>
+<record>
+  <date>2017-05-26T20:34:27</date>
+  <millis>1495802067415</millis>
+  <sequence>143</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>User select: Close anyway.</message>
+</record>
+<record>
+  <date>2017-05-26T20:34:27</date>
+  <millis>1495802067749</millis>
+  <sequence>144</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>FileTab cleared: Success.</message>
+</record>
+<record>
+  <date>2017-05-26T20:34:27</date>
+  <millis>1495802067750</millis>
+  <sequence>145</sequence>
+  <logger>ESPlorer.ESPlorer</logger>
+  <level>INFO</level>
+  <class>ESPlorer.ESPlorer</class>
+  <method>log</method>
+  <thread>13</thread>
+  <message>File close: Success.</message>
+</record>
+</log>
